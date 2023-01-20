@@ -4,7 +4,7 @@ import Router from './Router';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { darkTheme, lightTheme } from './theme';
 import { useRecoilValue } from 'recoil';
-import ToDoList from './ToDoList';
+import ToDoList from './components/ToDoList';
 
 export const GlobalStyle = createGlobalStyle`
   html, body, div, span, applet, object, iframe,
